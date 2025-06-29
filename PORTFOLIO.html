@@ -1,0 +1,103 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shikha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<!-- === NAVIGATION BAR === --><header>
+  <nav class="navbar">
+    <div class="logo">SOFTWARE<span class="ai-glow">ENGINEER</span></div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header><!-- Add this CSS to style.css --><style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #0d1b2a;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #f0f0f0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo .ai-glow {
+  color: #fff;
+  text-shadow: 0 0 10px #f0f0f0, 0 0 20px #f0f0f0;
+  font-style: italic;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #f0f0f0;
+  color: #0d1b2a;
+  box-shadow: 0 0 10px #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
+</style><!-- Add Google Fonts in <head> of all pages --><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+
+<section class="hero">
+  <div class="hero-left">
+    <h1>
+      Hey! 👋<br>
+      I am <span class="highlight">SHIKHA</span><br>
+      <span class="subheading">Web Developer • UI/UX Enthusiast • AI Learner 🤖</span>
+    </h1>
+  </div>
+  <div class="hero-right">
+    <img src="image.jpg" alt="Shikha Soni" class="portfolio-photo" />
+  </div>
+</section>
+</body>
+</html>

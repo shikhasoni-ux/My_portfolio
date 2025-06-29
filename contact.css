@@ -1,0 +1,40 @@
+/* Contact Section Styles */
+#contact {
+  background-color: #f0f0f0;  /* soft light cream */
+  color: #333333;            /* dark gray text for readability */
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #556b2f;  /* olive green border top for separation */
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #005979;            /* olive green heading */
+}
+
+#contact p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#contact li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+#contact a {
+  color: #;            /* olive green links */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
